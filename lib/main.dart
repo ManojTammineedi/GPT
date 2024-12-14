@@ -12,7 +12,7 @@ Future<void> main() async {
     anonKey: 'YOUR_SUPABASE_ANON_KEY',
   );
   Gemini.init(
-    apiKey: GEMINI_API_KEY,
+    apiKey: 'GEMINI_API_KEY',
   );
   runApp(MyApp());
 }
